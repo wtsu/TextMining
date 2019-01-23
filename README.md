@@ -5,4 +5,4 @@ Normalizing Messy Medical Data - Using Regular Expressions, I extract date varia
 
 Spelling Recomender - I use nltk to explore the Herman Melville novel Moby Dick. Then I create a spelling recommender function that uses nltk to find words similar to mispellings found in the novel. Use data set `moby.test`.
 
-Spam Message Classifier - I explore text message data and create models to predict if a message is spam or not. Use data set `spam.csv`
+Spam Message Classifier - I explore text message data. I then use sklearn to create a Naive Bayes Classifier model, Support Vector Classification model, and Logistic Regression Model to predict if a message is spam or not. I determine performance of models using AUC score. Use data set `spam.csv`
